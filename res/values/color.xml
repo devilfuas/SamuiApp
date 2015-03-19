@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="list_item_title">#fff</color>
+    <color name="list_background">#303030</color>
+    <color name="list_background_pressed">#992416</color>
+    <color name="list_divider">#272727</color>
+    <color name="counter_text_bg">#626262</color>
+    <color name="counter_text_color">#c5c4c4</color>
+    
+     <color name="color_pink">#e95374</color>
+    <color name="color_dark_pink">#c42c54</color>
+    <color name="color_light_gray">#d1d2d4</color>
+    <color name="color_little_gray">#e6e7e8</color>
+    <color name="color_dark_transparent">#37000000</color>
+    
+    <color name="color_text_normal">#ffffff</color>
+    <color name="color_text_pressed">#070707</color>
+</resources>

@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e9e9e9"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:background="#4466FF"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/global_padding"
+            android:textSize="@dimen/global_title_text_size" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+        <LinearLayout
+            android:id="@+id/inscrollview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/global_margin"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:id="@+id/gallery"
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:background="#4466FF"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:id="@+id/imv_detail"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="@dimen/global_margin"
+                    android:background="#ffffff"
+                    android:scaleType="fitCenter" />
+
+                <TextView
+                    android:id="@+id/ttGallery"
+                    android:layout_width="58dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/global_margin"
+                    android:background="@color/color_dark_transparent"
+                    android:paddingLeft="@dimen/global_padding"
+                    android:text="Gallery" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/datail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#7799FF" >
+
+                <TextView
+                    android:id="@+id/ttDetail"
+                    android:layout_width="58dp"
+                    android:layout_height="wrap_content"
+                    android:background="@color/color_dark_transparent"
+                    android:paddingLeft="@dimen/global_padding"
+                    android:text="Detail" />
+
+                <TextView
+                    android:id="@+id/tv_detail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/buttonIntent"
+                    android:padding="10dp"
+                    android:textSize="@dimen/global_minitext_size" />
+
+                <Button
+                    android:id="@+id/buttonIntent"
+                    android:layout_width="42dp"
+                    android:layout_height="42dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:background="@drawable/ic_map" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#6688FF" >
+
+                <TextView
+                    android:id="@+id/tvAddress"
+                    android:layout_width="64dp"
+                    android:layout_height="wrap_content"
+                    android:background="@color/color_dark_transparent"
+                    android:paddingLeft="@dimen/global_padding"
+                    android:text="Address" />
+
+                <TextView
+                    android:id="@+id/tv_address"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvAddress"
+                    android:padding="10dp"
+                    android:textSize="@dimen/global_minitext_size" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/openingtimes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#5577FF" >
+
+                <TextView
+                    android:id="@+id/ttopeningtimes"
+                    android:layout_width="104dp"
+                    android:layout_height="wrap_content"
+                    android:background="@color/color_dark_transparent"
+                    android:paddingLeft="@dimen/global_padding"
+                    android:text="Opening times" />
+
+                <TextView
+                    android:id="@+id/tv_openingtimes"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/ttopeningtimes"
+                    android:padding="10dp"
+                    android:textSize="@dimen/global_minitext_size" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/servicecharge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#4466FF" >
+
+                <TextView
+                    android:id="@+id/ttservicecharge"
+                    android:layout_width="104dp"
+                    android:layout_height="wrap_content"
+                    android:background="@color/color_dark_transparent"
+                    android:paddingLeft="@dimen/global_padding"
+                    android:text="Service charge" />
+
+                <TextView
+                    android:id="@+id/tv_servicecharge"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/ttservicecharge"
+                    android:padding="10dp"
+                    android:textSize="@dimen/global_minitext_size" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/contact"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#3355FF" >
+
+                <TextView
+                    android:id="@+id/ttcontact"
+                    android:layout_width="64dp"
+                    android:layout_height="wrap_content"
+                    android:background="@color/color_dark_transparent"
+                    android:paddingLeft="@dimen/global_padding"
+                    android:text="Contact" />
+
+                <TextView
+                    android:id="@+id/tv_contact"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/ttcontact"
+                    android:padding="10dp"
+                    android:textSize="@dimen/global_minitext_size" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

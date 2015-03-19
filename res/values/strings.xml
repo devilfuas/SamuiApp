@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Samui App</string>
+    <string name="action_settings"></string>
+    <string name="hello_world">Hello world!</string>
+    <string name="drawer_open">Slider Menu Opened</string>
+    <string name="drawer_close">Slider Menu Closed</string>
+    <string name="detail">Samui App</string>
+    <string name="contact">Tel:662 250 5500, TAT Contact Center:1672 </string>
+    <string name="servicecharge">No need service charge.</string>
+    <string name="openingtimes">Available anytime.</string>
+    <string name="app_id">400999140077449</string>
+
+    <!-- Nav Drawer Menu Items -->
+    <string-array name="nav_drawer_items">
+        <item>Home</item>
+        <item>Attractions</item>
+        <item>Map and Route</item>
+        <item>Weather Forcast</item>
+        <item>Post on FB</item>
+        <item>Samui Calendar</item>
+        <item>Thailand Festival</item>
+    </string-array>
+
+    <!-- Nav Drawer List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+    <array name="nav_drawer_icons">
+        <item>@drawable/ic_home</item>
+        <item>@drawable/ic_attraction</item>
+        <item>@drawable/ic_googlemap</item>
+        <item>@drawable/ic_weather</item>
+        <item>@drawable/ic_facebook</item>
+        <item>@drawable/ic_calendar</item>
+        <item>@drawable/festival</item>
+    </array>
+
+    <!-- Content Description -->
+    <string name="desc_list_item_icon">Item Icon</string>
+
+</resources>

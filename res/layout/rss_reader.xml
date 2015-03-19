@@ -1,0 +1,21 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RssReaderActivity" >
+    
+  
+
+
+    <ListView
+        android:id="@+id/rssfeed_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF"
+        android:cacheColorHint="#FFFFFF"
+        android:divider="#000000"
+        android:dividerHeight="1dip"
+        android:transcriptMode="alwaysScroll" >
+    </ListView>
+
+</RelativeLayout>
